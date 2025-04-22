@@ -1,0 +1,24 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "API para gestión de tareas y usuarios con Bun, TypeScript y MongoDB",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir ./dist",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "@elysiajs/swagger": "^1.0.0",
+    "elysia": "^1.0.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.3.3"
+  }
+}
